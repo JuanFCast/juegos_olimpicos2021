@@ -91,7 +91,7 @@ public class Country implements Comparable<Country>{
 					return -1;
 				}else {
 					//Se compara por nombre
-					return name.compareTo(c.getName());
+					return c.getName().compareTo(name);
 				}
 			}
 		}
