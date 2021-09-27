@@ -1,6 +1,6 @@
 package model;
 
-public class Country {
+public class Country implements Comparable<Country>{
 	private String name;
 	private int mGoldMedal;
 	private int mSilverMedal;
@@ -66,7 +66,7 @@ public class Country {
 		return combinedSilverMedal;
 	}
 
-	public int getcBronce() {
+	public int getcombinedBronzeMedal() {
 		return combinedBronzeMedal;
 	}
 
